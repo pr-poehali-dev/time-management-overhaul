@@ -23,15 +23,20 @@ export default function Hero() {
           alt="Mountain landscape"
           className="w-full h-full object-cover"
         />
+        <div className="absolute inset-0 bg-black/40" />
       </motion.div>
 
-      <div className="relative z-10 text-center text-white">
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ОТКРОЙ
+      <div className="relative z-10 text-center text-white px-6">
+        <p className="uppercase tracking-widest text-xs md:text-sm mb-4 opacity-70">Digital-агентство нового уровня</p>
+        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6 leading-none">
+          РАСТЁМ<br />ВМЕСТЕ
         </h1>
-        <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Исследуй границы дизайна с иммерсивным параллакс-эффектом
+        <p className="text-lg md:text-xl max-w-xl mx-auto opacity-80 leading-relaxed">
+          Создаём сайты, бренды и маркетинг, которые приносят реальных клиентов — а не просто красиво выглядят
         </p>
+        <button className="mt-10 px-8 py-3 border border-white text-white uppercase tracking-widest text-sm hover:bg-white hover:text-black transition-all duration-300">
+          Начать проект
+        </button>
       </div>
     </div>
   );
